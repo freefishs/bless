@@ -23,6 +23,12 @@ public class JedisUtil {
         jedisPool = new JedisPool(jpg,host,port);
     }
 
+    /**
+     * 这个换行就是我所搞的测试
+     * @return
+     */
+
+
     public static Jedis getJedis(){
         return jedisPool.getResource();
     }
