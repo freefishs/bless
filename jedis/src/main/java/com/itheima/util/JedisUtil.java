@@ -33,6 +33,10 @@ public class JedisUtil {
         return jedisPool.getResource();
     }
 
+    /**
+     * 这是main方法
+     * @param args
+     */
     public static void main(String[] args) {
         JedisUtil.getJedis();
     }
